@@ -8,8 +8,7 @@ class SavingsAccount:
 
     def __repr__(self):
         return f"Name: {self.name}\nPIN: {self.pin}\nBalance: {self.balance:.1f}"
-
-# Sample account data with updated names
+        
 accounts = [
     SavingsAccount("Priam", 5468, 9500.0),
     SavingsAccount("Alexa", 1353, 6750.5),
@@ -23,7 +22,6 @@ accounts = [
     SavingsAccount("Noah", 4253, 9000.0),
 ]
 
-# Shuffle the list and print
 random.shuffle(accounts)
 for account in accounts:
     print(account)
