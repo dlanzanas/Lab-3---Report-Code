@@ -14,7 +14,6 @@ class Student:
 name1 = input("Enter the name of the first student: ").strip()
 name2 = input("Enter the name of the second student: ").strip()
 
-
 scores1 = []
 scores2 = []
 
