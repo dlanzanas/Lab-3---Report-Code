@@ -4,7 +4,7 @@ class Student:
     def __init__(self, name):
         self.name = name
         self.scores = [100, 100, 100, 100, 100]  # Default scores for 5 subjects
-
+        
     def __repr__(self):
         return f"Name: {self.name}\nScores: {' '.join(map(str, self.scores))}"
 
@@ -27,3 +27,4 @@ print("\nSorted list of Students:")
 students.sort()
 for student in students:
     print(student)
+
