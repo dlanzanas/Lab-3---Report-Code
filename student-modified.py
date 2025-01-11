@@ -1,5 +1,5 @@
 import random
-
+#Name of class
 class Student:
     def __init__(self, name):
         self.name = name
